@@ -1,0 +1,53 @@
+.sectinAdd{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.addForm{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 500px;
+}
+.addForm  label{
+    padding-top: 0.8rem;
+
+}
+.addForm input, .addForm textarea{
+margin-bottom: 0.6rem;
+}
+.addForm textarea{
+  min-height: 200px;
+}
+.addForm button{
+    margin-top: 1rem;
+    background-color: rgb(10, 10, 10);
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    color: rgb(231, 231, 27);
+
+}
+.editpagemain{
+    max-width: 1200px;
+
+}
+.editpagemain a{
+    background-color: gray;
+    
+    text-decoration: none;
+    color: black;
+    font-style: normal;
+   margin-left: 4rem;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    
+}
+.editpagemain h1{
+    padding-bottom: 3rem;
+    padding-left: 5rem;
+    padding-top: 4rem;
+}

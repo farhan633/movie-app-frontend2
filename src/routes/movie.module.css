@@ -1,0 +1,97 @@
+.moviedeatilsection{
+display: flex;
+flex-direction: row;
+align-items: center;
+grid-gap: 1rem;
+padding: 2rem;
+}
+.moviedeatilsection img{
+width: 100%;
+max-width: 320px;
+}
+.edit{
+    text-decoration: none;
+    display: inline-block;
+    background-color: rgb(218, 218, 85);
+    color: rgb(8, 0, 0);
+    padding: 0.5rem 1rem;
+    border-radius: 7px;
+    margin-top: 2rem;
+}
+.edit:hover{
+    color: rgb(87, 87, 202);
+}
+.moviemain{
+    max-width:  1200px;
+    margin: 0 auto;
+    background-color: rgb(43, 41, 41);
+    color: white;
+    position: relative;
+}
+.moviedeatilsection h1{
+    font-family: Arial;
+    
+    
+}
+.moviedeatilsection p{
+    font-family: Courier, monospace;
+    padding-top: 2rem;
+
+}
+.moviedeatilsection span{
+    font-style: oblique;
+    padding-top: 1rem;
+    
+}
+.sectionReviewHeader{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+
+
+  }
+  .sectionReviewHeader button{
+    padding: 0.5rem;
+    color: black;
+    background-color: rgb(218, 218, 85);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .sectionReviewHeader button:hover{
+
+  color: rgb(62, 62, 107);  
+}
+.Reviewlist{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    grid-gap: 1rem;
+
+
+}
+.Review{
+    padding: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.deletebutton{
+    background-color: rgb(187, 187, 50);
+    border: none;
+    padding: 3px;
+    border-radius: 4px;
+
+
+}
+.deletebutton:hover{
+    cursor: pointer;
+    color: rgb(89, 89, 207);
+}
+
+

@@ -1,0 +1,60 @@
+.optionmain{
+    background-color: rgb(43, 41, 41);
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.optionmain button{
+    background-color: rgb(224, 224, 44);
+    border: none;
+    font-size: large;
+    font-style: oblique;
+    margin: 3rem;
+    padding: 0.5rem 2rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+
+
+}
+.contactbutton{
+    list-style: none;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.optionmain button:hover{
+    color: rgb(60, 60, 206);
+    cursor: pointer;
+}
+.contactbutton li{
+    
+    font-size: large;
+    font-style: italic;
+
+}
+.contactbutton li:hover{
+    color: rgb(216, 216, 53);
+    cursor: pointer;
+}
+.pram{
+
+    font-style: inherit;
+    width: 15rem;
+padding:2rem;
+
+}
+.pramdiv{
+    background-color:rgb(26, 24, 24) ;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    
+}

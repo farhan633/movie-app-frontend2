@@ -1,0 +1,76 @@
+
+.addreviewoverlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+    background-color: rgba(5, 5, 5, 0.459);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+.addForm{
+    display: flex;
+    flex-direction: column;
+    max-width: 540px;
+    background-color: rgb(243, 236, 236);
+    padding: 1.5rem;
+    color: black;
+    width: 100%;
+}
+.addForm button{
+    margin-top: 1rem;
+    background-color: rgb(10, 10, 10);
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    color: rgb(200, 212, 87);
+    background-color: rgb(10, 10, 9);
+    cursor: pointer;
+
+}
+.addForm input, .addForm textarea{
+    margin-bottom: 0.6rem;
+    
+
+    }
+    .addForm textarea{
+      min-height: 200px;
+      
+      
+    }
+    .addForm  label{
+        padding-top: 0.8rem;
+    
+    }
+    .addForm button:hover{
+        color: rgb(227, 252, 6);
+        
+    }
+    .closebutton{
+    
+     
+        background-color: black;
+        color: rgb(200, 212, 87);
+        border: none;
+        padding: 2px 5px;
+        border-radius: 6px;
+       cursor: pointer;
+
+        align-self: flex-end;
+
+        
+
+
+    }
+    .closebutton:hover{
+        
+        color: blue;
+    
+        
+    }
